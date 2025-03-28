@@ -4,9 +4,9 @@ const Schema = mongoose.Schema;
 const Student = new Schema({
     idStudent: { type: Number, required: true, unique: true },
     name: { type: String, require: true },
-    age: { type: Number },
+    email: { type: String, require: true },
+    password: { type: String, require: true },
     cgpa: { type: Number },
-    date: { type: Date, default: Date.now },
     department: { type: String, enum: ["CSE", "TVE"] },
 });
 

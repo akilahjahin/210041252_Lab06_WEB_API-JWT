@@ -3,7 +3,8 @@ const mongoose = require('mongoose');
 const Student = require("./models/Student.model");
 
 const app = express();
-app.use(express.json());
+app.use(express.json()); // express by default, doesn't parse incoming jsonRequest-bodies: By this line, MIDDLEWARE used which parses the jsonRequest-bodies before reaching the route-handlers, PREVIOUSLY< req-bpdy was "undefined" in the route handlers; since Express didn't automatically parse the request payload;
+// NOW (after using this line) : line acting as MIDDLEWARE, INTERCEPTS the incoming json req payload and attaches it to the previosuly undefined req-body which makes the req-bpdy defined to the route handlers...
 
 app.get('/', function (req, res) {
   res.send('Hello World Miah');
