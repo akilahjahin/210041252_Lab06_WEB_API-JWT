@@ -7,13 +7,14 @@
     "serve": "node index.js",
     "dev": "nodemon index.js",
     "auth": "nodemon Auth.js"
-
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "bcrypt": "^5.1.1",
+    "brcypt": "^1.0.1",
     "express": "^4.21.2",
     "mongodb": "^6.15.0",
     "mongoose": "^8.13.0"
