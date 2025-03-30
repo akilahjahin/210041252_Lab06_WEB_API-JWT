@@ -139,7 +139,7 @@ Table structured in **src/components/Users.jsx** displayes users in a table and 
       colorGroup: { type: String, enum: ["Red", "Black", "Green", "Blue", "White"] },
   });
    ```
-**Some predefined dataset in my MongoDB for easily loggin in are (you only require email and password)**
+**Some predefined dataset in my MongoDB for easily logging in (you only require email and password)**
 ```bash
     name : [ email, password ]
     Faraz Hossain : [345 farain@gmail.com, 123 ]
