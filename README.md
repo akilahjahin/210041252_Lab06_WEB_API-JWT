@@ -150,3 +150,6 @@ Table structured in **src/components/Users.jsx** displayes users in a table and 
     Sumaiya Tausif : [ sumif@gmail.com, 678 ]
     Rebecca Rumana : [ rebna@gmail.com, 789 ]
    ```
+**My related MongoDB database has from Atlas:**
+**Database: USERS, Collection: users**
+
