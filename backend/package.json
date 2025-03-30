@@ -1,37 +1,18 @@
 {
-  "name": "dbserver",
+  "name": "backend",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "node index.js",
-    "dev": "nodemon index.js",
-<<<<<<< HEAD
-    "auth": "nodemon Auth.js"
-=======
-    "auth": "nodemon Auth.js",
-    "start": "node server.js"
->>>>>>> 40de886 (Basic backend and frontend project re-structuring and some basic backend files defined)
+    "start": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-<<<<<<< HEAD
   "description": "",
   "dependencies": {
     "bcrypt": "^5.1.1",
-    "brcypt": "^1.0.1",
-    "express": "^4.21.2",
-    "mongodb": "^6.15.0",
-    "mongoose": "^8.13.0"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.9"
-  }
-=======
-  "dependencies": {
-    "bcrypt": "^5.1.1",
-    "brcypt": "^1.0.1",
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
@@ -41,7 +22,5 @@
   },
   "devDependencies": {
     "nodemon": "^3.1.9"
-  },
-  "description": ""
->>>>>>> 40de886 (Basic backend and frontend project re-structuring and some basic backend files defined)
+  }
 }
