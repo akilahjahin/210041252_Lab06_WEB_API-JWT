@@ -3,7 +3,7 @@
 
 This project is a full-stack CRUD (Create, Read, Update, Delete) application with React as the frontend, Express as the backend, and MongoDB as the database. The project allows users to login, register, add users, view all users, edit users, and delete users. The application also includes user authentication with JWT (JSON Web Tokens) to secure user-specific operations.
 
-### How the buttons work:
+## How the buttons work:
 #### Login/Register:
 
 The app opens at the authentication page and allows users to either login if they have an account or register a new account.
@@ -39,7 +39,9 @@ The **Update** button replaces the **Add User** button and updates all field and
 The **Delete** button allows a user to be removed from the database. The app sends a request to the backend to delete the user and refreshes the list of users displayed.
 **But, a user who is logged in already, can't delete his/her own row from the database, and if still tries, is prompted to Login again.**
 
-### Project Requirements and File Structure
+
+
+## Project Requirements and File Structure
 #### 1. Backend (Express & MongoDB)
 
 **File: server.js**
@@ -83,7 +85,9 @@ Table structured in **src/components/Users.jsx** displayes users in a table and 
 1. **Edit User** that redirects to a form for updating user with **Update User** button; that form is defined in **src/components/UserForm.jsx** and imported in Users.jsx.
 2. **Delete User** that deletes the related row from mongodb and refreshes the updated table; but **an already logged_in user cannot delete his/her own account from the table and if tries, prompted to Login again.**
 
-### Installation Guide
+
+
+## Installation Guide
 1. **Clone the repository**
    - Create a folder naming it, e.g. dbserver
    - Right click and open in terminal where, clone the project:
@@ -98,7 +102,9 @@ Table structured in **src/components/Users.jsx** displayes users in a table and 
 
 2. You can trust the authors and you have to run backend, frontend individually.
 
-### Project Run Commands
+
+
+## Project Run Commands
 1. **Backend:**
    Open a new terminal, navigate to backend and install dependencies before running
    ```bash
@@ -118,7 +124,9 @@ Table structured in **src/components/Users.jsx** displayes users in a table and 
   1. Backend will be running at **localhost:4000** and
   2. Frontend will be running at **localhost:5173** and open in *localhost:5173/auth*, initially
 
-### Project's Useful Datasets and Structures
+
+
+## Project's Useful Datasets and Structures
 
 **MongoDB was correctly setup, MONGO_URI in .env, and the schema for future registrations has been defined in backend/models/User.model.js which has the structure:**
   ```bash
