@@ -149,5 +149,4 @@ Table structured in **src/components/Users.jsx** displayes users in a table and 
     Imran Khalid : [ imran@gmail.com, 567 ]
     Sumaiya Tausif : [ sumif@gmail.com, 678 ]
     Rebecca Rumana : [ rebna@gmail.com, 789 ]
-  });
    ```
