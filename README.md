@@ -142,7 +142,7 @@ Table structured in **src/components/Users.jsx** displayes users in a table and 
 **Some predefined dataset in my MongoDB for easily logging in (you only require email and password)**
 ```bash
     name : [ email, password ]
-    Faraz Hossain : [345 farain@gmail.com, 123 ]
+    Faraz Hossain : [ farain@gmail.com, 123 ]
     Anika Tabassum : [ anika@gmail.com, 234 ]
     Bushra Haque : [ bush@gmail.com, 345 ]
     Toma Mehrin : [ tomin@gmail.com, 456 ]
@@ -153,3 +153,6 @@ Table structured in **src/components/Users.jsx** displayes users in a table and 
 **My related MongoDB database has from Atlas:**
 **Database: USERS, Collection: users**
 
+
+## Drive Link having useful VIDEOS showing How APP runs:
+https://drive.google.com/drive/folders/1Aejx1qvOAaKR1ye5aQqylCrQG20mJXXO?usp=sharing
